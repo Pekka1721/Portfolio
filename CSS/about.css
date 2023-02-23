@@ -1,16 +1,9 @@
 *{
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
-    
     font-family: 'Poppins', sans-serif;
-    box-sizing: border-box;
 
-
-}
-
-body{
-   
-   /* overflow-y: hidden; */
 }
 header{
     margin: 10px 20px 10px 40px;
@@ -43,7 +36,7 @@ nav{
     
     margin: 10px 80px;
 }
- #home{  
+ #about{  
     border-radius: 5px;                   /*this is to display currnt page on*/
     border-bottom: 2px solid silver;
     border-right:2px solid silver; 
@@ -58,38 +51,54 @@ nav{
     text-decoration: none;
 }
 main{
-    height: 800px;
+    height: 90%;
     background-color: #e0ffcd;
-    text-align: center;
-    color: #4a4e69;
-
-    
-
 }
 h1{
-    padding-top: 200px;
-    text-transform: uppercase;
-    font-size: 300%; 
+    padding-top: 90px;
+    padding-left: 100px;
     
+}
+#aboutme{
+    margin-left: 250px;
+    margin-top: 20px;
+    border-left: 2px solid silver;
     
-
 }
-.para{
-    font-size: 120%;
-   
-}
-.btn{
-    margin-top: 150px;
-    height: 40px;
-    width: 100px;
-    border-radius: 10px;
-    border: none;
-    box-shadow: 2px 2px #4a4e69;
-}
-#btn{
-    font-weight: bold;
+.content{
+    margin-left: 20px;
     font-size: larger;
-    text-decoration: none;
-    color: #57385c;
+}
+h2{
+    margin-left: 100px;  
+}
+
+#fend{
+    margin-left: 250px;
+}
+h4{ 
+    padding-left: 10px;
+    font-size: larger;
+    border-left:2px solid silver;
+}
+#fend  li{
+    margin-top: 10px;
+    margin-left: 40px;
+}
+#bend{
+    margin-top: 10px;
+    margin-left: 250px;
+}
+#bend li{
+    margin-top: 10px;
+    margin-left: 40px;
+}
+.dbase{
+    margin-top: 10px;
+    margin-left: 250px; 
+}
+.dbase li{
+    margin-top: 10px;
+    margin-left: 40px; 
 }
 
