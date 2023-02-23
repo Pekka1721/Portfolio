@@ -47,7 +47,8 @@ nav{
     
     margin: 10px 80px;
 }
- #home{                     /*this is to display currnt page on*/
+ #home{  
+    border-radius: 5px;                   /*this is to display currnt page on*/
     border-bottom: 2px solid silver;
     border-right:2px solid silver; 
     padding: 5px 3px 2px 5px;
